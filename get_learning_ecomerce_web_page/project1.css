@@ -1,0 +1,159 @@
+body{
+    font-family: 'Baloo 2', cursive;
+    background-color: #8a8cad;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    line-height: 1.6;
+    
+}
+a{
+    text-decoration: none;
+    color: #cccc;
+}
+#showcase{
+    margin: 0px;
+    padding: 0px;
+    background: url("hello6.jpg") no-repeat center/cover;
+    width: 100%;
+    overflow-y: hidden;
+    height: 600px;   
+}
+#showcase .conatanier{
+   
+margin-top: 25vh;
+}
+#showcase h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+#showcase h2{
+    font-size: 2rem;
+}
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #3d3d3d;
+    color: rgb(212, 212, 212);
+    position: fixed;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 10px,0px;
+    padding-top: 8px;
+    color: #ffffff;
+    height: 35px;
+}
+nav li:hover{
+    background-color: #ffffff;
+    border: 0.1px solid  #ffffff ;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+nav li a:hover{
+    color: #000000;;
+}
+.conatanier{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.lead{
+    font-size: 25px;
+    color: white;
+}
+.footer-cools{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 17px;
+
+}
+footer .footer-cools ul{
+    list-style: none;
+
+}
+footer .footer-cools ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #848484 solid 1.5px;
+    margin-bottom: 1rem;
+    width: 170px;
+}
+footer .footer-bottom{
+    background-color: #848484;
+    padding: 0.5rem;
+    text-align: center;
+}
+#About_Us{
+    background-color: #767588;
+    margin-top: -20px;
+    padding: 10px;
+}
+#About_Us h2{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #4b4b4b;
+}
+#About_Us p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.para{
+    font-size: 20px;
+    color: rgb(49, 58, 65);
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn-secondary:hover{
+    color: #c0c0c0;
+}
+.outdoor{
+    background-color: antiquewhite;
+    
+}
+.btn-secondary{
+    color: black; 
+}
+.indoor{
+    background-color: rgb(215, 245, 250);
+    
+}
+.heading{
+    color: #767588;
+}
+.hide-on-small{
+    color: #ffffff;
+}
+li a{
+    color: white;
+}
+li a:hover{
+    color: rgb(235, 235, 235);
+}
+#register{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 7px white solid;
+    border-radius: 10px;
+}
+#register:hover{
+    background-color: #000000;
+    border: 7px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    color: white;
+}
